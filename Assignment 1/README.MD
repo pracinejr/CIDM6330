@@ -8,6 +8,6 @@
   - Concept
   - UX Notes
   - Interfaces (Controls)
-  1. Behaviors
+  A. Behaviors
     - Feature/Package A (appropriate UML diagrams)
     - Feature/Package N (appropriate UML diagrams) …
