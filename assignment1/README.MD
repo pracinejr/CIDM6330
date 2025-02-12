@@ -10,8 +10,19 @@
   - ?Table of contents?
 2. **Requirements statements**
   - User Stories
-  
+    - As a musician, I want to receive personalized workouts based on my playing style so I can improve my endurance and prevent injuries.
+    - As a drummer, I want targeted warm-ups for my wrists and shoulders to avoid strain.
+    - As a guitarist, I want finger flexibility exercises to improve dexterity.
+    - As a bassist, I want to increase my lower back strength so I can sustain activity on stage for multiple hours, multiple nights a week.
+    - As a user, I want to track my progress over time so I can stay motivated.
+    - As a fitness trainer, I want to contribute exercises to the app’s database.
+
   - Use Cases 
+    a. User creates a fitness profile.
+    b. App generates a workout plan.
+    c. User logs and tracks progress.
+    d. App syncs with wearables for real-time feedback.
+    e. Trainer submits new exercises.
 
   - Features
 
