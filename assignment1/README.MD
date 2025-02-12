@@ -9,8 +9,6 @@
   
   - ?Table of contents?
 2. **Requirements statements**
-  
-  Tab 
   - User Stories
   
   - Use Cases 
@@ -19,7 +17,7 @@
 
   - Gherkin Validation
 
-3.**Specifications**
+3. **Specifications**
   - Concept
   - UX Notes
   - Interfaces (Controls)
