@@ -17,16 +17,16 @@
         5. As a user, I want to track my progress over time so I can stay motivated.
         6. As a fitness trainer, I want to contribute exercises to the app’s database.
 
-  2. Use Cases 
+    2. Use Cases 
         1. User creates a fitness profile.
         2. App generates a workout plan.
         3. User logs and tracks progress.
         4. App syncs with wearables for real-time feedback.
         5. Trainer submits new exercises.
 
-  - Features
+    3. Features
 
-  - Gherkin Validation
+    4. Gherkin Validation
 
 3. **Specifications**
   - Concept
