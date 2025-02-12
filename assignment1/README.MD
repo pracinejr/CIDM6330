@@ -44,10 +44,20 @@
 
 
 3. **Specifications**
-  - Concept
-  - UX Notes
-  - Interfaces (Controls)
-  - Behaviors
-    - Feature/Package A (appropriate UML diagrams)
-    - Feature/Package N (appropriate UML diagrams)
+    1. Concept
+      - A mobile application that acts as a personal trainer for musicians, helping them stay in peak performance shape through targeted fitness routines.
+
+    2. UX Notes
+        1. Simple onboarding
+        2. Clear, guided workouts
+        3. Gamification elements for motivation
+        4. Wearable compatibility
+    3. Interfaces (Controls)
+        1. Profile setup form
+        2. Workout selection
+        3. Timer & progress tracker
+        4. Sync with smartwatches
+    4. Behaviors
+        1. Feature/Package A (appropriate UML diagrams)
+        2.Feature/Package N (appropriate UML diagrams)
 
