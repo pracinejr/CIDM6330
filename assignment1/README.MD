@@ -18,11 +18,11 @@
     - As a fitness trainer, I want to contribute exercises to the app’s database.
 
   - Use Cases 
-    a. User creates a fitness profile.
-    b. App generates a workout plan.
-    c. User logs and tracks progress.
-    d. App syncs with wearables for real-time feedback.
-    e. Trainer submits new exercises.
+    1. User creates a fitness profile.
+    2. App generates a workout plan.
+    3. User logs and tracks progress.
+    4. App syncs with wearables for real-time feedback.
+    5. Trainer submits new exercises.
 
   - Features
 
