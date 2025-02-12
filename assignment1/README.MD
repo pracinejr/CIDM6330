@@ -25,8 +25,22 @@
         5. Trainer submits new exercises.
 
     3. Features
+        1. Musician-specific workouts
+        2. Customizable plans
+        3. Progress tracking
+        4. Wearable integration
+        5. AI-powered exercise recommendations
 
     4. Gherkin Validation
+    > Scenario: User receives a personalized workout plan  
+    - Given the user inputs their instrument type, daily practice hours, and physical needs  
+    - When they submit their profile  
+    - Then the app generates a custom workout plan  
+    > Scenario: User logs a workout  
+    - Given the user completes an exercise  
+    - When they log the activity  
+    - Then the app updates their progress and provides feedback  
+
 
 3. **Specifications**
   - Concept
