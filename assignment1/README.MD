@@ -58,5 +58,5 @@
         3. Timer & progress tracker
         4. Sync with smartwatches
     4. Behaviors
-        1. 
+        1. ![Alt text](/assignment1/images/UML_SoundBody_V1.png)
 
