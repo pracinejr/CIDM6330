@@ -1,4 +1,4 @@
-1. **Front matter**
+1 **Front matter**
   - Front page
     - Title: SoundBody
     - Version: 1.0
@@ -58,6 +58,5 @@
         3. Timer & progress tracker
         4. Sync with smartwatches
     4. Behaviors
-        1. Feature/Package A (appropriate UML diagrams)
-        2.Feature/Package N (appropriate UML diagrams)
+        1. 
 
