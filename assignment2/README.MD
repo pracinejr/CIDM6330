@@ -1,7 +1,7 @@
 **ERD and Python API**
 1. ![Alt text](/assignment2/images/CIDM_assignment_2.png)
 2. 
-`
+```
 from fastapi import FastAPI
 
 """
@@ -36,5 +36,5 @@ if __name__ == "__main__":
     import uvicorn
 
     uvicorn.run(app, host="127.0.0.1", port=8000)
-`
+```
 3.  
