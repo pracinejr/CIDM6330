@@ -1,5 +1,8 @@
 **ERD and Python API**
-1. ![Alt text](/assignment2/images/CIDM_assignment_2.png)
+1.
+        1. ![Alt text](/assignment2/images/CIDM_assignment_2.png)
+        2. [Download the PDF](/assignment2/images/CIDM_assignment_2.pdf)
+
 2. 
 ```
 from fastapi import FastAPI
