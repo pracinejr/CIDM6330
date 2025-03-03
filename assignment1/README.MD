@@ -1,4 +1,4 @@
-1 **Front matter**
+1. **Front matter**
   - Front page
     - Title: SoundBody
     - Version: 1.0
