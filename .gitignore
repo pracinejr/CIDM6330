@@ -1,0 +1,24 @@
+# Ignore virtual environments
+.venv/
+venv/
+
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$PYTHONWARNINGS
+
+# Logs and temporary files
+*.log
+*.out
+*.err
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
