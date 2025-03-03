@@ -1,7 +1,8 @@
 **ERD and Python API**
+
 1.
-        1. ![Alt text](/assignment2/images/CIDM_assignment_2.png)
-        2. [Download the PDF](/assignment2/images/CIDM_assignment_2.pdf)
+        - ![Alt text](/assignment2/images/CIDM_assignment_2.png)
+        - [Download the PDF](/assignment2/images/CIDM_assignment_2.pdf)
 
 2. 
 ```
