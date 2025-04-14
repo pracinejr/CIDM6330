@@ -32,3 +32,58 @@ class Trainer(models.Model):
     cv = models.FileField(null=True, blank=True)
     # def __str__(self):
     # return self.name
+
+
+class BaseWorkoutPlan(models.Model):
+    baseWorkoutPlanId = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=255)
+    duration = models.IntegerField()  # duration in minutes
+
+
+class CustomWorkoutPlan(models.Model):
+    customWorkoutPlanId = models.AutoField(primary_key=True)
+    trainer = models.ForeignKey(Trainer, on_delete=models.CASCADE)
+    musician = models.ForeignKey(Musician, on_delete=models.CASCADE)
+    name = models.CharField(max_length=255)
+    duration = models.IntegerField()  # duration in minutes
+
+
+class BaseWorkoutPlanExercise(models.Model):
+    baseWorkoutPlanExerciseId = models.AutoField(primary_key=True)
+    baseWorkoutPlan = models.ForeignKey(BaseWorkoutPlan, on_delete=models.CASCADE)
+    exercise = models.ForeignKey(Exercise, on_delete=models.CASCADE)
+    sets = models.IntegerField()
+    repetitions = models.IntegerField()
+    duration = models.IntegerField()  # duration per exercise in minutes
+
+
+class CustomWorkoutPlanExercise(models.Model):
+    customWorkoutPlanExerciseId = models.AutoField(primary_key=True)
+    customWorkoutPlan = models.ForeignKey(CustomWorkoutPlan, on_delete=models.CASCADE)
+    exercise = models.ForeignKey(Exercise, on_delete=models.CASCADE)
+    sets = models.IntegerField()
+    repetitions = models.IntegerField()
+    duration = models.IntegerField()
+
+
+class WorkoutCompleteEntry(models.Model):
+    workoutCompleteEntryId = models.AutoField(primary_key=True)
+    musician = models.ForeignKey(Musician, on_delete=models.CASCADE)
+    baseWorkoutPlan = models.ForeignKey(
+        BaseWorkoutPlan, on_delete=models.SET_NULL, null=True, blank=True
+    )
+    customWorkoutPlan = models.ForeignKey(
+        CustomWorkoutPlan, on_delete=models.SET_NULL, null=True, blank=True
+    )
+    dateCompleted = models.DateField()
+    totalDuration = models.IntegerField()
+    caloriesBurned = models.IntegerField()
+
+
+class MusicianWorkoutStatistics(models.Model):
+    musicianWorkoutStatisticsId = models.AutoField(primary_key=True)
+    musician = models.ForeignKey(Musician, on_delete=models.CASCADE)
+    totalWorkoutsCompleted = models.IntegerField()
+    totalExercisesCompleted = models.IntegerField()
+    totalTimeSpent = models.IntegerField()
+    averageIntensity = models.CharField(max_length=50)
