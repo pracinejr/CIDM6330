@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "soundBody.apps.SoundbodyConfig",
+    "soundBody",
+    "apilist",
+    "assign5_custom_operations",
 ]
 
 MIDDLEWARE = [
@@ -50,7 +52,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "assignment4.urls"
+ROOT_URLCONF = "apilist.urls"
 
 TEMPLATES = [
     {
@@ -68,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "assignment4.wsgi.application"
+WSGI_APPLICATION = "apilist.wsgi.application"
 
 
 # Database
